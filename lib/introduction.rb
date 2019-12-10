@@ -1,13 +1,13 @@
 def introduction(name)
   
-  puts "hello #{name} welcome to Flatiron"
+  puts "Hi, my name is #{name}."
 end
 
-introduction("dwane")
+introduction("Josh")
 
 def introduction_with_language(name, language)
   
-  puts "hi #{name}!, learing #{language} will be so fun."
+  puts "hi my name is #{name} and I am learing to program in #{language}."
 end
 
-introduction_with_language("dwane", "ruby")
+introduction_with_language("Dan", "Ember.js")
