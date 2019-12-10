@@ -1,13 +1,13 @@
-def name_greeting(name)
+def introduction(name)
   
   puts "hello #{name} welcome to Flatiron"
 end
 
-name_greeting("dwane")
+introduction("dwane")
 
-def name_language(name, language)
+def introduction_with_language(name, language)
   
   puts "hi #{name}!, learing #{language} will be so fun."
 end
 
-name_language("dwane", "ruby")
+introduction_with_language("dwane", "ruby")
